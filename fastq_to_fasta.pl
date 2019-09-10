@@ -1,4 +1,8 @@
-#!perl -w
+#!/usr/bin/perl -w
+
+# Script:  fastq_to_fasta.pl
+# Purpose: Convert FASTQ files to FASTA format
+# Author:  Richard Leggett
 
 use warnings;
 use strict;
