@@ -85,7 +85,7 @@ if (defined $length_fh) {
 
 foreach $id (sort {$lengths{$b} <=> $lengths{$a}} keys %lengths)
 {
-    my $contig_length = $lengths{$id};
+    :
     $cumulative += $contig_length;
     $counter++;
     
